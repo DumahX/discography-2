@@ -1,0 +1,146 @@
+/* color  
+   black #131314
+   light grey #B0B0B0
+   red #cc0000
+   background: #E8E8E8;
+   light grey */
+
+
+/*logo*/
+.logo {
+  font-family: audiowide, Times New Romen,Times, sans-serif;
+   font-size: 60px;
+    
+}
+/* navgaition */
+.navbar {
+    background: #131314;
+    
+   }
+
+/*links*/
+a:hover {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+nav a {
+margin: 0 3em 0 0;
+color: #B0B0B0;
+}
+
+/*core*/
+body {
+   background: #E8E8E8;
+   font-family: Times New Romen, Times, Helvetica, sans-serif;
+   font-size: 1.2em; 
+   line-height: 1.5em;
+   margin: 0;
+   
+}
+
+h1 {
+   margin-right: 3em;
+   display: block;    
+}
+
+h2 {
+  font-family: Times New Romen,Times, sans-serif; 
+  padding-top: 50px; 
+  margin-bottom: 50px; 
+  text-align: center;
+}
+
+/* members */
+h3 {
+  padding: 10px 10px 4px 4em;  
+}
+.members img {
+    margin-left: 20px;
+}
+.members p {
+   margin-left: 15px;    
+   display: block;
+}
+.vip {
+    margin-top: 5em;
+}
+/* albums*/
+.album  {
+     padding-top: 60px;
+     margin: 30px;
+    
+}
+.album img {
+    padding-bottom: 40px;
+    margin: auto;    
+    display: block;
+}
+h4 {
+ padding: 10px 10px 4px 3em;    
+}
+
+
+/* news */
+.box {
+    display: block;
+    padding: 3em 0 0 1em;
+    background-color: #cccccc;
+    margin: 3em 9em 2em 9em;
+    border: 10px solid black;
+ }
+
+.btn {
+    width: 10em;
+    text-align: center;
+    margin: auto 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+  font-family: audiowide, Times New Romen,Times, sans-serif;
+  font-size: 15px;
+  padding: 1px; 
+  background-color: black;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .members img {
+        padding-left: 2em;
+    }
+    
+    .members p {
+        padding-left: 2em;
+    }
+    
+    h3 {
+      margin-left: 20px;  
+    } 
+     
+     .box {
+       margin-left: 2em;
+       width: 80%;
+    }
+    .btn {
+        width: 5em;
+        font-size: 1.5em;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .members img {
+        padding-left: 1em;
+    }
+     .members p {
+        padding-left: 1em;
+    }
+     h3 {
+      margin-left: 10px;  
+    } 
+}

@@ -1,0 +1,65 @@
+/* color  
+   black #131314
+   light grey #B0B0B0
+   red #cc0000
+   background: #E8E8E8;
+   light grey */
+
+/*logo*/
+.logo {
+  font-family: audiowide, Times New Romen,Times, sans-serif;
+   font-size: 60px;
+    
+}
+/* navgaition */
+.navbar {
+    background: #131314;
+    
+   }
+
+
+/*links*/
+a:hover {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+nav a {
+color: #B0B0B0;
+ margin: 0 0 0 4em;   
+}
+
+
+/*core*/
+body {
+   background: #E8E8E8;
+   font-family: Times New Romen, Times, Helvetica, sans-serif;
+   font-size: 1.2em; 
+   line-height: 1.4em;
+   margin: 0;
+       
+   
+}
+
+h2 {
+    font-family: audiowide, Times New Romen,Times, sans-serif;
+    text-align: center;
+    margin-top: 1em;
+}
+
+li {
+ padding-right: 2em;    
+ list-style-type: none;
+}
+
+/* footer */
+
+footer {
+  font-family: audiowide, Times New Romen,Times, sans-serif;
+  font-size: 15px;
+  padding: 1px; 
+  background-color: black;
+  color: #fff;
+ 
+  
+} 
