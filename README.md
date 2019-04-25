@@ -1,1 +1,1 @@
-This was a PHP revamp of another student's discography
+Adding PHP functionality to another student's static HTML code on their discography website (PHP Revamp)
